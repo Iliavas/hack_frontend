@@ -1,0 +1,91 @@
+.login-img__container{
+  display: flex;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+/* 
+body{
+  overflow: hidden;
+} */
+.form__sized{
+  width: 360px;
+  padding-top: 219px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.current-cost{
+  color: #1890FF;
+  background-color: #E6F7FF;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.time__container-content{
+  display: inline-block;
+  background-color: #E6F7FF;
+  padding: 10px;
+  border-radius: 4px;
+  color: #1890FF;
+  font-size: 24px;
+}
+.time__container{
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+.time{
+  display: flex;
+  gap: 15px;
+}
+.cost-and-time__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.time{
+  transform: translateY(20px);
+}
+.flat{
+  display: flex;
+  justify-content: space-between;
+}
+.pred-bet__text{
+  font-weight: 700;
+}
+.pred-bet{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.cost{
+  color: #1890FF;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 32px;
+  margin-right: 264px;
+}
+.bet__block{
+  display: flex;
+  background: #FAFAFA;
+  border-radius: 4px;
+  padding: 17px 32px;
+  margin-top: 10px;
+}
+.low-cost{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 4px;
+}
